@@ -1,19 +1,19 @@
 // Created by: Ryan-Shaw-2
 // Created on: May 2021
 //
-// This program checks whether the user will get a discount at the museum
+// This program checks if the user should go to work, school or if it's the weekend
 
 package main
 
 import "fmt"
 
 func main() {
-	// This function checks whether the user will get a discount at the museum
+	// This function checks if the user should go to work, school or if it's the weekend
 	var userDay string
 	var userAge int
 
 	// input
-	fmt.Println("This program checks whether the user will get a discount at the museum")
+	fmt.Println("This program checks if the user should go to work, school or if it's the weekend")
 	fmt.Println()
 	fmt.Print("Enter the day: ")
 	fmt.Scanln(&userDay)
