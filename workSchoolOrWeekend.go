@@ -22,10 +22,10 @@ func main() {
 	fmt.Println()
 
 	// process
-	if !(userDay == "saturday" || userDay == "sunday") && (userAge >= 18 ) {
+	if !(userDay == "saturday" || userDay == "sunday") && (userAge >= 18) {
 		// output
 		fmt.Println("Time for work")
-	} else if !(userDay == "saturday" || userDay == "sunday") && (userAge < 18 ) {
+	} else if !(userDay == "saturday" || userDay == "sunday") && (userAge < 18) {
 		// output
 		fmt.Println("Time for school")
 	} else {
